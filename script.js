@@ -1,11 +1,14 @@
 // Ініціалізуємо Telegram Web App
 const tg = window.Telegram.WebApp;
 
-// Налаштовуємо кнопку
 const openSiteButton = document.getElementById('openSiteButton');
-openSiteButton.addEventListener('click', () => {
-    tg.openLink('https://sites.google.com/view/discounts-from-ali/');
-});
+if (openSiteButton) {
+    openSiteButton.addEventListener('click', () => {
+        tg.openLink('https://discountsfromali.github.io/mybot_test/');
+    });
+} else {
+    console.error("Кнопка не знайдена!");
+}
 const tg = window.Telegram.WebApp;
 
 if (!tg.initData) {
