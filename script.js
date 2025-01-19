@@ -5,7 +5,7 @@ const tg = window.Telegram.WebApp;
 const openSiteButton = document.getElementById('openSiteButton');
 openSiteButton.addEventListener('click', () => {
     // Відкриваємо посилання на сайт
-    window.open('https://example.com', '_blank'); // Змініть на ваш сайт
+    window.open('https://sites.google.com/view/discounts-from-ali/', '_blank'); // Змініть на ваш сайт
 });
 
 // Автоматично розширюємо Web App на весь екран
