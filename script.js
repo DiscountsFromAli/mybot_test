@@ -4,7 +4,7 @@ const tg = window.Telegram.WebApp;
 const openSiteButton = document.getElementById('openSiteButton');
 if (openSiteButton) {
     openSiteButton.addEventListener('click', () => {
-        tg.openLink('https://discountsfromali.github.io/mybot_test/');
+        tg.openLink('https://sites.google.com/view/discounts-from-ali/coupons');
     });
 } else {
     console.error("Кнопка не знайдена!");
